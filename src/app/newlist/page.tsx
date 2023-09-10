@@ -24,6 +24,7 @@ export default function Page() {
       <div>
         <form action={createTodo} className="flex gap-2 flex-col">
           <input
+            defaultChecked={complete}
             type="text"
             name="title"
             className="border border-slate-300 bg-transparent rounded px-2 py-1 outline-none focus-within:border-slate-100"
